@@ -28,7 +28,7 @@ class Order
   end
 
 end
-
+# Setting an error class
 class NoDishError < StandardError
   def initialize(msg = "Cannot add dish, item not on menu!")
   end
